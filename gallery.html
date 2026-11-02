@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World | TURBO DISTRICT</title>
+<meta name="theme-color" content="#090a0f">
+<meta name="description" content="TURBO DISTRICT: a low-poly open-world arcade racing game. Drive fast. Own the streets.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="gallery">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="TURBO DISTRICT home"><img src="images/logo.png" alt="TURBO DISTRICT logo" width="620" height="303"></a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span></button>
+  <nav id="nav" aria-label="Main"><ul><li><a href="index.html">HOME</a></li><li><a href="characters.html">CARS</a></li><li><a href="gallery.html" aria-current="page">WORLD</a></li><li><a href="contact.html">GAME INFO</a></li></ul><a class="btn btn-sm" href="contact.html#download">Pre-order</a></nav>
+</header>
+<main id="main">
+<section class="page-head"><div class="wrap"><h1>THE WORLD</h1><p class="lead">Explore the three zones, browse gameplay screenshots and watch the trailer.</p></div></section>
+<section class="zones-full">
+<article class="zone" id="city"><img src="images/backgrounds/city.svg" alt="City District at night with low-poly skyscrapers" loading="lazy"><div><h2>CITY DISTRICT</h2><p>A vibrant urban jungle of busy streets, glowing city lights and street racing routes. Short, tight and always full of traffic.</p></div></article>
+<article class="zone flip" id="mountain"><img src="images/backgrounds/mountain.svg" alt="Mountain Pass winding road at dusk" loading="lazy"><div><h2>MOUNTAIN PASS</h2><p>Winding roads, sharp corners and big elevation changes. Brake late, hold your line and do not look down.</p></div></article>
+<article class="zone" id="highway"><img src="images/backgrounds/highway.svg" alt="Highway Run straight road at sunset" loading="lazy"><div><h2>HIGHWAY RUN</h2><p>A long, open highway made for maximum acceleration. Hit the boost and see how fast your car can really go.</p></div></article>
+</section>
+<section class="section">
+  <div class="wrap">
+    <h2>Gameplay screenshots</h2>
+    <!-- REPLACE: put your own screenshots in images/gallery/ and update the src paths. Click an image to enlarge. -->
+    <div class="shots"><button class="shot" data-lightbox="images/gallery/shot-1.svg" data-alt="Spark GT racing through the city at night"><img src="images/gallery/shot-1.svg" alt="Spark GT racing through the city at night" loading="lazy"></button><button class="shot" data-lightbox="images/gallery/shot-2.svg" data-alt="Velocity R on a bright mountain road"><img src="images/gallery/shot-2.svg" alt="Velocity R on a bright mountain road" loading="lazy"></button><button class="shot" data-lightbox="images/gallery/shot-3.svg" data-alt="Phantom X on the highway at sunset"><img src="images/gallery/shot-3.svg" alt="Phantom X on the highway at sunset" loading="lazy"></button><button class="shot" data-lightbox="images/gallery/shot-4.svg" data-alt="Nightfall GT crossing the city district"><img src="images/gallery/shot-4.svg" alt="Nightfall GT crossing the city district" loading="lazy"></button><button class="shot" data-lightbox="images/gallery/shot-5.svg" data-alt="Storm XR climbing the mountain pass"><img src="images/gallery/shot-5.svg" alt="Storm XR climbing the mountain pass" loading="lazy"></button><button class="shot" data-lightbox="images/gallery/shot-6.svg" data-alt="Vortex S at full speed on the highway"><img src="images/gallery/shot-6.svg" alt="Vortex S at full speed on the highway" loading="lazy"></button></div>
+  </div>
+</section>
+<section class="section dark">
+  <div class="wrap">
+    <h2>Concept art</h2>
+    <div class="grid-3 concept"><figure><img src="images/gallery/concept-1.svg" alt="Car concept sketch 1" loading="lazy"><figcaption>Concept sketch 1</figcaption></figure><figure><img src="images/gallery/concept-2.svg" alt="Car concept sketch 2" loading="lazy"><figcaption>Concept sketch 2</figcaption></figure><figure><img src="images/gallery/concept-3.svg" alt="Car concept sketch 3" loading="lazy"><figcaption>Concept sketch 3</figcaption></figure></div>
+  </div>
+</section>
+<section class="section" id="trailer">
+  <div class="wrap narrow">
+    <h2>Official trailer</h2>
+    <div class="video">
+      <!-- REPLACE: change RUQekDcYSCI below with your real YouTube video ID.
+           Example: for https://www.youtube.com/watch?v=abc123XYZ the ID is abc123XYZ -->
+      <iframe src="https://www.youtube-nocookie.com/embed/RUQekDcYSCI" title="TURBO DISTRICT trailer" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p class="note">TURBO DISTRICT official trailer. If the video does not load, <a class="link" href="https://youtu.be/RUQekDcYSCI" target="_blank" rel="noopener">watch it on YouTube</a>.</p>
+  </div>
+</section>
+<div class="lightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged screenshot"><button class="lb-close" aria-label="Close">Close</button><img alt=""></div>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="TURBO DISTRICT logo" width="620" height="303"></a>
+    <ul><li><a href="index.html">HOME</a></li><li><a href="characters.html">CARS</a></li><li><a href="gallery.html">WORLD</a></li><li><a href="contact.html">GAME INFO</a></li></ul>
+    <!-- REPLACE: change each href="#" to your real social media link -->
+    <ul class="fsoc"><li><a href="#">Instagram</a></li><li><a href="#">YouTube</a></li><li><a href="#">TikTok</a></li><li><a href="#">Discord</a></li></ul>
+    <p>DRIVE FAST. OWN THE STREETS.<br>&copy; <span id="year">2026</span> TURBO DISTRICT STUDIOS. Fictional game created for a student project.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

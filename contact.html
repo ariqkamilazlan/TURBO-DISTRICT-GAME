@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Info | TURBO DISTRICT</title>
+<meta name="theme-color" content="#090a0f">
+<meta name="description" content="TURBO DISTRICT: a low-poly open-world arcade racing game. Drive fast. Own the streets.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="contact">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="TURBO DISTRICT home"><img src="images/logo.png" alt="TURBO DISTRICT logo" width="620" height="303"></a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span></button>
+  <nav id="nav" aria-label="Main"><ul><li><a href="index.html">HOME</a></li><li><a href="characters.html">CARS</a></li><li><a href="gallery.html">WORLD</a></li><li><a href="contact.html" aria-current="page">GAME INFO</a></li></ul><a class="btn btn-sm" href="contact.html#download">Pre-order</a></nav>
+</header>
+<main id="main">
+<section class="page-head"><div class="wrap"><h1>GAME INFO</h1><p class="lead">Read the story, check your PC, meet the studio and send us feedback.</p></div></section>
+<section class="section" id="overview">
+  <div class="wrap two">
+    <div><h2>Game overview</h2>
+      <p>TURBO DISTRICT is a stylized open-world 3D arcade racing game. You arrive in the district with one beaten-up Spark GT and a dream of owning the streets.</p>
+      <p><strong>Synopsis:</strong> win street races to earn rep, unlock new cars and take on the mountain crews and highway legends. Every road is open from the start.</p></div>
+    <div><h2>Game features</h2>
+      <ul class="plain"><li>Open-world city, mountain and highway racing</li><li>Eight cars with their own look and handling</li><li>Arcade drifting, nitro boost and tuning</li><li>Stylized low-poly 3D world</li></ul></div>
+  </div>
+</section>
+<section class="section dark" id="download">
+  <div class="wrap two">
+    <div>
+      <h2>Download</h2>
+      <p>TURBO DISTRICT is coming soon. Pre-order now to secure the Spark GT launch livery.</p>
+      <div class="actions"><a class="btn" href="#feedback">Pre-order (placeholder)</a></div>
+      <h3>Platforms</h3>
+      <ul class="plain"><li>PC (Windows 10 / 11)</li><li>PlayStation 5</li><li>Xbox Series X|S</li></ul>
+      <p class="note">Platforms and release date are fictional placeholders.</p>
+    </div>
+    <div>
+      <h2>System requirements</h2>
+      <div class="table-wrap"><table>
+        <caption class="sr">Minimum and recommended PC specifications</caption>
+        <thead><tr><th></th><th>Minimum</th><th>Recommended</th></tr></thead>
+        <tbody><tr><td>OS</td><td>Windows 10 64-bit</td><td>Windows 11 64-bit</td></tr><tr><td>Processor</td><td>Intel Core i5-8400</td><td>Intel Core i7-10700</td></tr><tr><td>Memory</td><td>8 GB RAM</td><td>16 GB RAM</td></tr><tr><td>Graphics</td><td>GTX 1060 6 GB</td><td>RTX 3060 12 GB</td></tr><tr><td>Storage</td><td>25 GB HDD</td><td>25 GB SSD</td></tr></tbody>
+      </table></div>
+    </div>
+  </div>
+</section>
+<section class="section dark" id="developer">
+  <div class="wrap two">
+    <div>
+      <h2>Developer</h2>
+      <p><strong>TURBO DISTRICT STUDIOS</strong> is a small fictional indie team making arcade racing games with low-poly style and big speed.</p>
+      <p>Studio email: <a href="mailto:studio@example.com">studio@example.com</a> <span class="note">(placeholder)</span><br>Phone: +00 000 000 0000 <span class="note">(placeholder)</span></p>
+    </div>
+    <div>
+      <h2>Follow us</h2>
+      <!-- REPLACE: change each href="#" to your real social media link. No real accounts are used. -->
+      <ul class="socials"><li><a href="#">Instagram</a></li><li><a href="#">YouTube</a></li><li><a href="#">TikTok</a></li><li><a href="#">X / Twitter</a></li><li><a href="#">Discord</a></li></ul>
+    </div>
+  </div>
+</section>
+<section class="section" id="feedback">
+  <div class="wrap narrow">
+    <h2>Send feedback</h2>
+    <!-- Works with Netlify Forms once hosted. Locally it shows a confirmation only. -->
+    <form id="feedback-form" name="feedback" method="POST" data-netlify="true" novalidate>
+      <input type="hidden" name="form-name" value="feedback">
+      <label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required>
+      <p class="err" data-for="name"></p>
+      <label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required>
+      <p class="err" data-for="email"></p>
+      <label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea>
+      <p class="err" data-for="message"></p>
+      <button class="btn" type="submit">Send feedback</button>
+      <p class="ok" id="ok" role="status" hidden>Thanks! Your feedback has been sent.</p>
+    </form>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="TURBO DISTRICT logo" width="620" height="303"></a>
+    <ul><li><a href="index.html">HOME</a></li><li><a href="characters.html">CARS</a></li><li><a href="gallery.html">WORLD</a></li><li><a href="contact.html">GAME INFO</a></li></ul>
+    <!-- REPLACE: change each href="#" to your real social media link -->
+    <ul class="fsoc"><li><a href="#">Instagram</a></li><li><a href="#">YouTube</a></li><li><a href="#">TikTok</a></li><li><a href="#">Discord</a></li></ul>
+    <p>DRIVE FAST. OWN THE STREETS.<br>&copy; <span id="year">2026</span> TURBO DISTRICT STUDIOS. Fictional game created for a student project.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

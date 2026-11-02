@@ -1,0 +1,8 @@
+ASSIGNMENT CHECKLIST (DAM50403 Final Project) - REDESIGN
+[x] 4 pages: index.html, characters.html (CARS), gallery.html (WORLD), contact.html (GAME INFO)
+[x] Working nav on every page, active page highlighted, mobile menu
+[x] Official logo in header, footer and favicon colours
+[x] Logo-based palette: red, black, white, yellow-orange-red accent (CSS variables at top of css/style.css)
+[x] All 8 cars, environments, screenshots, concept art, YouTube placeholder, form: kept
+[x] Balance / Contrast / Unity on all pages
+[ ] YOU: add YouTube ID, host on Netlify, make PDF board

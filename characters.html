@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cars | TURBO DISTRICT</title>
+<meta name="theme-color" content="#090a0f">
+<meta name="description" content="TURBO DISTRICT: a low-poly open-world arcade racing game. Drive fast. Own the streets.">
+<link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add("js")</script>
+</head>
+<body class="cars">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <a class="logo" href="index.html" aria-label="TURBO DISTRICT home"><img src="images/logo.png" alt="TURBO DISTRICT logo" width="620" height="303"></a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu"><span></span></button>
+  <nav id="nav" aria-label="Main"><ul><li><a href="index.html">HOME</a></li><li><a href="characters.html" aria-current="page">CARS</a></li><li><a href="gallery.html">WORLD</a></li><li><a href="contact.html">GAME INFO</a></li></ul><a class="btn btn-sm" href="contact.html#download">Pre-order</a></nav>
+</header>
+<main id="main">
+<section class="page-head"><div class="wrap"><h1>THE CARS</h1><p class="lead">Eight cars, each with its own speed, power and drivetrain. Find the one that fits your style.</p></div></section>
+<section class="section">
+  <div class="wrap">
+    <div class="filters" role="group" aria-label="Filter by drivetrain">
+      <button class="chip is-on" data-filter="all">All cars</button><button class="chip" data-filter="AWD">AWD</button><button class="chip" data-filter="RWD">RWD</button>
+    </div>
+    <p class="count" aria-live="polite"><span id="count">8</span> cars shown</p>
+    <!-- REPLACE: car images are in images/cars/car-1.svg to car-8.svg. Keep the names or change each src below. -->
+    <div class="grid-4" id="car-grid"><article class="car" data-drive="RWD">
+  <div class="car-img"><img src="images/cars/car-1.svg" alt="Spark Gt low-poly car, street racing" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">STREET RACING</p>
+    <h3>SPARK GT</h3>
+    <p>Light, loud and easy to slide. The car every new driver starts in.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>220 km/h</dd><span class="bar"><i style="--v:61%"></i></span></div>
+      <div><dt>Power</dt><dd>280 HP</dd><span class="bar"><i style="--v:35%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>RWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="AWD">
+  <div class="car-img"><img src="images/cars/car-2.svg" alt="Velocity R low-poly car, sport class" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">SPORT CLASS</p>
+    <h3>VELOCITY R</h3>
+    <p>Planted through every corner with launch grip that never lets go.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>270 km/h</dd><span class="bar"><i style="--v:75%"></i></span></div>
+      <div><dt>Power</dt><dd>420 HP</dd><span class="bar"><i style="--v:52%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>AWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="AWD">
+  <div class="car-img"><img src="images/cars/car-3.svg" alt="Phantom X low-poly car, supercar" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">SUPERCAR</p>
+    <h3>PHANTOM X</h3>
+    <p>A low, wide supercar built for the long highway straights.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>330 km/h</dd><span class="bar"><i style="--v:92%"></i></span></div>
+      <div><dt>Power</dt><dd>650 HP</dd><span class="bar"><i style="--v:81%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>AWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="AWD">
+  <div class="car-img"><img src="images/cars/car-4.svg" alt="Ridgeline Rs low-poly car, mountain racing" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">MOUNTAIN RACING</p>
+    <h3>RIDGELINE RS</h3>
+    <p>Tuned for hairpins and steep climbs where grip beats power.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>240 km/h</dd><span class="bar"><i style="--v:67%"></i></span></div>
+      <div><dt>Power</dt><dd>350 HP</dd><span class="bar"><i style="--v:44%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>AWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="RWD">
+  <div class="car-img"><img src="images/cars/car-5.svg" alt="Nightfall Gt low-poly car, night racing" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">NIGHT RACING</p>
+    <h3>NIGHTFALL GT</h3>
+    <p>A dark grand tourer made for neon streets after midnight.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>285 km/h</dd><span class="bar"><i style="--v:79%"></i></span></div>
+      <div><dt>Power</dt><dd>460 HP</dd><span class="bar"><i style="--v:57%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>RWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="RWD">
+  <div class="car-img"><img src="images/cars/car-6.svg" alt="Apex V8 low-poly car, muscle car" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">MUSCLE CAR</p>
+    <h3>APEX V8</h3>
+    <p>Big engine, big noise. Hard to tame and hard to beat in a straight line.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>260 km/h</dd><span class="bar"><i style="--v:72%"></i></span></div>
+      <div><dt>Power</dt><dd>520 HP</dd><span class="bar"><i style="--v:65%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>RWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="AWD">
+  <div class="car-img"><img src="images/cars/car-7.svg" alt="Storm Xr low-poly car, off-road" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">OFF-ROAD</p>
+    <h3>STORM XR</h3>
+    <p>Raised and rugged. Cuts across dirt shortcuts the others avoid.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>210 km/h</dd><span class="bar"><i style="--v:58%"></i></span></div>
+      <div><dt>Power</dt><dd>380 HP</dd><span class="bar"><i style="--v:48%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>AWD</dd></div>
+    </dl>
+  </div>
+</article><article class="car" data-drive="AWD">
+  <div class="car-img"><img src="images/cars/car-8.svg" alt="Vortex S low-poly car, hypercar" loading="lazy" width="700" height="420"></div>
+  <div class="car-body">
+    <p class="tag">HYPERCAR</p>
+    <h3>VORTEX S</h3>
+    <p>The fastest car in the district. Only the best drivers can keep it straight.</p>
+    <dl class="stats">
+      <div><dt>Top speed</dt><dd>360 km/h</dd><span class="bar"><i style="--v:100%"></i></span></div>
+      <div><dt>Power</dt><dd>800 HP</dd><span class="bar"><i style="--v:100%"></i></span></div>
+      <div><dt>Drivetrain</dt><dd>AWD</dd></div>
+    </dl>
+  </div>
+</article></div>
+  </div>
+</section>
+<section class="section dark">
+  <div class="wrap">
+    <h2>How the cars play</h2>
+    <div class="features">
+      <article><h3>Drift</h3><p>Hold the handbrake into a corner to slide through and build your boost.</p></article>
+      <article><h3>Nitro boost</h3><p>Fill the meter with clean drifts and near-misses, then burn it on the straights.</p></article>
+      <article><h3>Tune and paint</h3><p>Upgrade the engine and tyres, then pick a livery that makes your car yours.</p></article>
+      <article><h3>Garage</h3><p>Switch cars any time. AWD for grip, RWD for style and skill.</p></article>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="wrap foot">
+    <a class="logo" href="index.html"><img src="images/logo.png" alt="TURBO DISTRICT logo" width="620" height="303"></a>
+    <ul><li><a href="index.html">HOME</a></li><li><a href="characters.html">CARS</a></li><li><a href="gallery.html">WORLD</a></li><li><a href="contact.html">GAME INFO</a></li></ul>
+    <!-- REPLACE: change each href="#" to your real social media link -->
+    <ul class="fsoc"><li><a href="#">Instagram</a></li><li><a href="#">YouTube</a></li><li><a href="#">TikTok</a></li><li><a href="#">Discord</a></li></ul>
+    <p>DRIVE FAST. OWN THE STREETS.<br>&copy; <span id="year">2026</span> TURBO DISTRICT STUDIOS. Fictional game created for a student project.</p>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
